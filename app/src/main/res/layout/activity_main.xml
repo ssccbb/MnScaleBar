@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F5F5F5"
-    tools:context="com.sung.notes.MainActivity">
+    tools:context="com.sung.mnscalebar.MainActivity">
     <LinearLayout
         android:background="@drawable/card_background"
         android:layout_marginTop="30dp"
@@ -20,7 +20,7 @@
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <com.sung.notes.MnScaleBar
+        <com.sung.mnscalebar.MnScaleBar
             android:layout_width="match_parent"
             android:layout_height="100dp"
             android:id="@+id/scale_bar" />

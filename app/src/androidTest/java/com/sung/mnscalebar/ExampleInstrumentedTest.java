@@ -1,4 +1,4 @@
-package com.sung.notes;
+package com.sung.mnscalebar;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

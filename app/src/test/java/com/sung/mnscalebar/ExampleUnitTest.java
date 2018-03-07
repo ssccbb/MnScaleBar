@@ -1,4 +1,4 @@
-package com.sung.notes;
+package com.sung.mnscalebar;
 
 import org.junit.Test;
 
