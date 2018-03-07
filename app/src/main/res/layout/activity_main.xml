@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context="com.sung.notes.MainActivity">
+    <LinearLayout
+        android:background="@drawable/card_background"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_above="@+id/wheel_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/wheel_container"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.sung.notes.MnScaleBar
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/scale_bar" />
+    </LinearLayout>
+</RelativeLayout>
